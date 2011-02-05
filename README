@@ -1,0 +1,12 @@
+DOE for AMT
+
+This is a set of scripts to control AMT in an experimental design framework.
+
+The idea is that even numbered experiments are run on the sandbox. Once the
+experiment has been tested on the sandbox, the experiment is replicated
+to an odd numbered experiment and run on the production site. There is 
+currently no logic to support this, but the framework is there.
+
+In fact, this is nothing more than a glorified collection of bash scripts
+that keep me sane when interfacing with AMT. Feel free to use and modify.
+
