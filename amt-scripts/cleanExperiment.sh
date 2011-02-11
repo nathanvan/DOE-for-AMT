@@ -11,7 +11,7 @@ fi
 
 DIR=`pwd`
 
-KEEPLIST="$EXPNAME-input.csv   $EXPNAME-properties   $EXPNAME-question"
+KEEPLIST="$EXPNAME-reject.csv   $EXPNAME-input.csv   $EXPNAME-properties   $EXPNAME-question"
 
 #Check if the experiment directory exists
 if [ -d $DIR/$EXPNAME ]; then
